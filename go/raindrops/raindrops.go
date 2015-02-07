@@ -3,8 +3,7 @@ package raindrops
 import "strconv"
 
 // Convert converts input number to a raindrops string
-func Convert(n int) string {
-	var s string
+func Convert(n int) (s string) {
 	if n%3 == 0 {
 		s += "Pling"
 	}
